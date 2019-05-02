@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79041566-f184-411c-8cf9-43a67d192e3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Library/chrome_selenium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/TC02_Chrome.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/TC02_Chrome_Selenium.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/TC01_Calculator_Add.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/TC01_Calculator_Add.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/results/Log/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/results/Log/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/results/Log/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/results/Log/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/results/Log/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/results/Log/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/import_lib_to_pathfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/chrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/TC02_Chrome.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="289">
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#0#192#0" expanded="true" />
               </folding>
@@ -47,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/TC02_Chrome_Selenium.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#0#307#0" expanded="true" />
               </folding>
@@ -71,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Library/chrome_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
               <folding>
                 <element signature="e#357#372#0" expanded="true" />
               </folding>
@@ -199,6 +189,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Training_TMA\robotframwork\appium_for_mac\examples\TestCase\results\Log" />
       <recent name="E:\Training_TMA\robotframwork\appium_for_mac\examples\TestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -342,24 +333,38 @@
       <option name="project" value="LOCAL" />
       <updated>1556265607005</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update 04/26/2019">
+      <created>1556782805831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556782805831</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update 05/2/2019">
+      <created>1556782869063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556782869063</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14014752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14014752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.35555556" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" weight="0.35555556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" weight="0.4311111" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -370,7 +375,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update 04/26/2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 04/26/2019" />
+    <MESSAGE value="Update 05/2/2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 05/2/2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/unittest.pyi">
@@ -443,16 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/TC02_Chrome.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Library/chrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -463,22 +459,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/chrome_selenium.py">
+    <entry file="file://$PROJECT_DIR$/TestCase/TC02_Chrome.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <element signature="e#357#372#0" expanded="true" />
+            <element signature="e#0#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/TC02_Chrome_Selenium.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#0#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/chrome_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <element signature="e#357#372#0" expanded="true" />
           </folding>
         </state>
       </provider>

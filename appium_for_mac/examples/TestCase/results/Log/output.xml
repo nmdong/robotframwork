@@ -1,32 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190426 13:45:06.100" generator="Robot 3.1.1 (Python 2.7.14 on win32)">
-<suite source="E:\Training_TMA\robotframwork\appium_for_mac\examples\TestCase\TC01_Calculator_Add.robot" id="s1" name="TC01 Calculator Add">
-<test id="s1-t1" name="Test title">
+<robot rpa="false" generated="20190502 14:39:03.073" generator="Robot 3.1.1 (Python 2.7.14 on win32)">
+<suite source="E:\Training_TMA\robotframwork\appium_for_mac\examples\TestCase\TC02_Chrome_Selenium.robot" id="s1" name="TC02 Chrome Selenium">
+<test id="s1-t1" name="TC02 Chrome use selenium">
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>1. Lauch App</arg>
 </arguments>
-<status status="PASS" endtime="20190426 13:45:06.540" starttime="20190426 13:45:06.539"></status>
+<status status="PASS" endtime="20190502 14:39:03.268" starttime="20190502 14:39:03.268"></status>
 </kw>
-<kw name="Lauch App" library="cal">
+<kw name="Launch Browser Use Selenium" library="chr">
+<doc>* Function name: lauch_browser
+* Description: This function is used to launch web address
+* Parameters:
+    + url: this is address web
+    + title_web: title web
+* Author: Dong Nguyen
+* Date: Feb, 2019
+* Ex: lauch_browser  http://appium.io/
+* Modify by:
+* Date</doc>
 <arguments>
-<arg>10.102.1.102</arg>
-<arg>4622</arg>
+<arg>http://appium.io</arg>
 </arguments>
-<msg timestamp="20190426 13:45:06.541" level="INFO">Start function launch app calculator for mac</msg>
-<msg timestamp="20190426 13:45:07.055" level="INFO">Opening the Calculator</msg>
-<msg timestamp="20190426 13:45:07.478" level="INFO">Open window: [u'0', u'1']</msg>
-<msg timestamp="20190426 13:45:07.478" level="INFO">lauch_app successfully</msg>
-<status status="PASS" endtime="20190426 13:45:07.479" starttime="20190426 13:45:06.540"></status>
+<msg timestamp="20190502 14:39:03.268" level="INFO">Web Address:   http://appium.io</msg>
+<msg timestamp="20190502 14:39:06.480" level="INFO">CDwindow-760C7C1D3D71C3BB440C138D06F6468F</msg>
+<msg timestamp="20190502 14:39:11.525" level="INFO">Title: Appium: Mobile App Automation Made Awesome.</msg>
+<status status="PASS" endtime="20190502 14:39:11.526" starttime="20190502 14:39:03.268"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>3. exit app</arg>
+</arguments>
+<status status="PASS" endtime="20190502 14:39:11.529" starttime="20190502 14:39:11.528"></status>
+</kw>
+<kw name="Exit App" library="chr">
+<msg timestamp="20190502 14:39:11.591" level="INFO">Quitting the WebDriver session</msg>
+<status status="PASS" endtime="20190502 14:39:11.591" starttime="20190502 14:39:11.530"></status>
+</kw>
+<kw type="teardown" name="Run Keyword If Test Failed" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if the test failed.</doc>
+<arguments>
+<arg>clean_up</arg>
+</arguments>
+<status status="PASS" endtime="20190502 14:39:11.592" starttime="20190502 14:39:11.592"></status>
 </kw>
 <tags>
 <tag>DEBUG</tag>
 </tags>
-<status status="PASS" endtime="20190426 13:45:07.479" critical="yes" starttime="20190426 13:45:06.538"></status>
+<status status="PASS" endtime="20190502 14:39:11.592" critical="yes" starttime="20190502 14:39:03.267"></status>
 </test>
 <doc>Suite description</doc>
-<status status="PASS" endtime="20190426 13:45:07.479" starttime="20190426 13:45:06.107"></status>
+<status status="PASS" endtime="20190502 14:39:11.593" starttime="20190502 14:39:03.076"></status>
 </suite>
 <statistics>
 <total>
@@ -37,10 +63,9 @@
 <stat fail="0" pass="1">DEBUG</stat>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="TC01 Calculator Add" pass="1">TC01 Calculator Add</stat>
+<stat fail="0" id="s1" name="TC02 Chrome Selenium" pass="1">TC02 Chrome Selenium</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20190426 13:45:06.518" level="WARN">Imported library 'E:\Training_TMA\robotframwork\appium_for_mac\examples\Library\calculator.py' contains no keywords.</msg>
 </errors>
 </robot>

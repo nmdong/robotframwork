@@ -11,13 +11,11 @@
 # Python default packages used in this lib.
 
 import unittest
-import sys
-import os
-import time,datetime,inspect
-import subprocess
 import logging
-
+import time
 from appium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
 
 class Driver(unittest.TestCase):
     '''
@@ -53,3 +51,23 @@ class Driver(unittest.TestCase):
             return self.driver
         self.fail('Cannot open application')
         return False
+
+    def select_menu_item(self, driver, menuItemPath):
+		# Start with the menu bar item which has its own role.
+        AvayaEquinoxPath = "/AXApplication[@AXTitle='"+self.app_name+"']"
+        absoluteAXPath = AvayaEquinoxPath + "/AXMenuBar" + "/AXMenuBarItem[@AXTitle='" + menuItemPath[0] + "']"
+        parentElement = driver.find_element_by_xpath(absoluteAXPath)
+        ActionChains(driver).move_to_element_with_offset(parentElement, 20, 10).perform()
+        ActionChains(driver).click().perform()
+
+        absoluteAXPathmenu = 	absoluteAXPath + "/AXMenu/AXMenuItem"
+        absoluteAXPathmenu_ele = driver.find_elements(By.XPATH,absoluteAXPathmenu)
+        for e in absoluteAXPathmenu_ele:
+            absoluteAXPathmenu_title = e.get_attribute('AXTitle')
+            ActionChains(driver).move_to_element_with_offset(parentElement, parentElement.size['width'] - 1, 10).perform()
+            for i in range(1, len(menuItemPath)):
+                if menuItemPath[i] in absoluteAXPathmenu_title:
+                    logging.info('Click to %s' % absoluteAXPathmenu_title)
+                    ActionChains(driver).move_to_element_with_offset(e, 20, 10).perform()
+                    e.click()
+        return True
